@@ -37,7 +37,8 @@
     <Reference Include="LanguageIdentifier">
       <HintPath>..\..\..\Downloads\LanguageIdentifier\LanguageIdentifier\LanguageIdentifier.dll</HintPath>
     </Reference>
-    <Reference Include="log4net">
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\NICE Systems\Real-Time Designer\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -56,6 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="LanguagesProfiles\langprofiles.bin.gz" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Packages\Automation Studio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Packages\Designer 7.5 onwards\PAteam_LanguageUtils.dll" />
+    <Content Include="Packages\Designer before 7.5\PAteam_LanguageUtils.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
