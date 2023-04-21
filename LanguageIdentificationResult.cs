@@ -3,6 +3,7 @@
 namespace NICE_LanguageUtils
 {
     [DirectDom("Language Identification Result", "General")]
+    //Type used for storing a result
     public class LanguageIdentificationResult : DirectComponentBase
     {
         protected PropertyHolder<string> _EnglishName = new PropertyHolder<string>("English Name");
