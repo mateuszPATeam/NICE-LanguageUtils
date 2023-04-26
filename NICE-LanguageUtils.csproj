@@ -57,13 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="LanguagesProfiles\langprofiles.bin.gz" />
+    <None Include="Packages\Automation Studio\PAteam_LanguageUtils_Actions.1.0.0.nupkg" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Packages\Automation Studio\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Packages\Designer 7.5 onwards\PAteam_LanguageUtils.dll" />
-    <Content Include="Packages\Designer before 7.5\PAteam_LanguageUtils.dll" />
+    <Content Include="Packages\Designer 7.5 onwards\LanguageIdentifier.dll" />
+    <Content Include="Packages\Designer 7.5 onwards\NICE-LanguageUtils.dll" />
+    <Content Include="Packages\Designer before 7.5\LanguageIdentifier.dll" />
+    <Content Include="Packages\Designer before 7.5\NICE-LanguageUtils.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
